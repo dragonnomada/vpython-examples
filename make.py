@@ -90,8 +90,9 @@ for base, dirs, files in os.walk("./"):
                     buffer += f"{header}\n"
 
                 # Process gallery
-                # buffer += f"![{code}_{name}](screenshots/{code}.1.png)\n"
-                buffer += f"<img class='screenshot' src='screenshots/{code}.1.png' style='height:100px;width:100%;object-fit:contain;background-color:black;padding:40px 0px;' />\n\n"
+                # buffer += f"<div><center>![{code}_{name}](screenshots/{code}.1.png)</center></div>\n"
+                # buffer += f"<img class='screenshot' src='screenshots/{code}.1.png' style='height:100px;width:100%;object-fit:contain;background-color:black;padding:40px 0px;' />\n\n"
+                buffer += f"<div style='background:black;'><center><img src='screenshots/{code}.1.png' /></center></div>\n\n"
 
                 buffer += f"> [{file}](./{file})\n\n"
 
@@ -101,20 +102,20 @@ for base, dirs, files in os.walk("./"):
                 buffer += "```\n\n"
 
 
-styles = """
-<style>
-img.screenshot {
-    height:100px !important;
-    width:100% !important;
-    object-fit:contain !important;
-    background-color:black !important;
-    padding:40px 0px !important;
-}
-</style>
+# styles = """
+# <style>
+# img.screenshot {
+#     height:100px !important;
+#     width:100% !important;
+#     object-fit:contain !important;
+#     background-color:black !important;
+#     padding:40px 0px !important;
+# }
+# </style>
 
-"""
+# """
 
-buffer = f"# VPython Examples\n\nAuthor: [{author}](mailto:{email})\n" + styles + buffer.strip()
+buffer = f"# VPython Examples\n\nAuthor: [{author}](mailto:{email})\n\n" + buffer.strip()
 
 print(buffer)
 
