@@ -91,7 +91,7 @@ for base, dirs, files in os.walk("./"):
 
                 # Process gallery
                 # buffer += f"![{code}_{name}](screenshots/{code}.1.png)\n"
-                buffer += f"<img src='screenshots/{code}.1.png' style='height:100px;width:100%;object-fit:contain;background-color:black;padding:40px 0px;' />\n\n"
+                buffer += f"<img class='screenshot' src='screenshots/{code}.1.png' style='height:100px;width:100%;object-fit:contain;background-color:black;padding:40px 0px;' />\n\n"
 
                 buffer += f"> [{file}](./{file})\n\n"
 
@@ -103,12 +103,12 @@ for base, dirs, files in os.walk("./"):
 
 styles = """
 <style>
-img {
-    height:100px;
-    width:100%;
-    object-fit:contain;
-    background-color:black;
-    padding:40px 0px;
+img.screenshot {
+    height:100px !important;
+    width:100% !important;
+    object-fit:contain !important;
+    background-color:black !important;
+    padding:40px 0px !important;
 }
 </style>
 
