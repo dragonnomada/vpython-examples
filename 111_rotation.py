@@ -1,7 +1,7 @@
 # 
 # VPython Example 111 - Rotation
 #
-# Display a gear extruded in rotation
+# Display a gear extruded while rotating
 #
 # Author: Alan Badillo Salas <alan@nomadacode.com>
 # Created: 2023/02/15

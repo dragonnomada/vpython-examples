@@ -1,5 +1,5 @@
 # 
-# VPython Example 110 - Label
+# VPython Example 110 - Shapes
 #
 # Display a gear extruded to a cylinder
 #

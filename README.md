@@ -215,7 +215,7 @@ c = cylinder(pos=p, axis=vector(1, 0, 0), size=vector(1, 0.05, 0.05))
 f = compound([s, c], pos=vector(2, 2, 2), axis=vector(1, 1, 1))
 ```
 
-## Example 110 - Label
+## Example 110 - Shapes
 
 Display a gear extruded to a cylinder
 
@@ -233,7 +233,7 @@ extrusion(path=[vector(0, 0, 0), vector(0, 1, 0)], shape=e)
 
 ## Example 111 - Rotation
 
-Display a gear extruded in rotation
+Display a gear extruded while rotating
 
 <img class='screenshot' src='screenshots/111.1.png' style='height:200px;' />
 
