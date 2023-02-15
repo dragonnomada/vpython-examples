@@ -2,6 +2,16 @@
 
 Author: [Alan Badillo Salas](mailto:alan@nomadacode.com)
 
+<style>
+img {
+    height:100px;
+    width:100%;
+    object-fit:contain;
+    background-color:black;
+    padding:40px 0px;
+}
+</style>
+
 ## Example 101 - Spheres
 
 Display 3 spheres of different colors on each axis

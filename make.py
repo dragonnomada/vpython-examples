@@ -101,7 +101,20 @@ for base, dirs, files in os.walk("./"):
                 buffer += "```\n\n"
 
 
-buffer = f"# VPython Examples\n\nAuthor: [{author}](mailto:{email})\n\n" + buffer.strip()
+styles = """
+<style>
+img {
+    height:100px;
+    width:100%;
+    object-fit:contain;
+    background-color:black;
+    padding:40px 0px;
+}
+</style>
+
+"""
+
+buffer = f"# VPython Examples\n\nAuthor: [{author}](mailto:{email})\n" + styles + buffer.strip()
 
 print(buffer)
 
