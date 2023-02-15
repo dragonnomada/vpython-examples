@@ -92,7 +92,8 @@ for base, dirs, files in os.walk("./"):
                 # Process gallery
                 # buffer += f"<div><center>![{code}_{name}](screenshots/{code}.1.png)</center></div>\n"
                 # buffer += f"<img class='screenshot' src='screenshots/{code}.1.png' style='height:100px;width:100%;object-fit:contain;background-color:black;padding:40px 0px;' />\n\n"
-                buffer += f"<div style='background:black;'><center><img src='screenshots/{code}.1.png' /></center></div>\n\n"
+                buffer += f"<img class='screenshot' src='screenshots/{code}.1.png' style='height:200px;' />\n\n"
+                # buffer += f"<div style='background:black;'><center><img src='screenshots/{code}.1.png' /></center></div>\n\n"
 
                 buffer += f"> [{file}](./{file})\n\n"
 

@@ -6,7 +6,7 @@ Author: [Alan Badillo Salas](mailto:alan@nomadacode.com)
 
 Display 3 spheres of different colors on each axis
 
-<div style='background:black;'><center><img src='screenshots/101.1.png' /></center></div>
+<img class='screenshot' src='screenshots/101.1.png' style='height:200px;' />
 
 > [101_spheres.py](./101_spheres.py)
 
@@ -30,7 +30,7 @@ print(ball3.pos)
 
 Display 3 arrows on each axis
 
-<div style='background:black;'><center><img src='screenshots/102.1.png' /></center></div>
+<img class='screenshot' src='screenshots/102.1.png' style='height:200px;' />
 
 > [102_axis.py](./102_axis.py)
 
@@ -46,7 +46,7 @@ axis_z = arrow(pos=vector(0, 0, 0), axis=vector(0, 0, 1), color=color.blue)
 
 Display 3 boxes on different places
 
-<div style='background:black;'><center><img src='screenshots/103.1.png' /></center></div>
+<img class='screenshot' src='screenshots/103.1.png' style='height:200px;' />
 
 > [103_boxes.py](./103_boxes.py)
 
@@ -64,7 +64,7 @@ box(pos=vector(1, 1, 1), up=vector(0, 0, 1), size=vector(1.9, 0.5, 1), color=col
 
 Display 3 cylinders of different colors on each axis
 
-<div style='background:black;'><center><img src='screenshots/104.1.png' /></center></div>
+<img class='screenshot' src='screenshots/104.1.png' style='height:200px;' />
 
 > [104_cylinder.py](./104_cylinder.py)
 
@@ -80,7 +80,7 @@ c3 = cylinder(pos=vector(0, 0, 0), axis=vector(0, 0, 1), length=1, radius=0.1, c
 
 Display a cube made of cylinders
 
-<div style='background:black;'><center><img src='screenshots/105.1.png' /></center></div>
+<img class='screenshot' src='screenshots/105.1.png' style='height:200px;' />
 
 > [105_cylinder_cube.py](./105_cylinder_cube.py)
 
@@ -129,7 +129,7 @@ cylinder_from_to(p7, p8)
 
 Display a triangle made by vertices with different colors
 
-<div style='background:black;'><center><img src='screenshots/106.1.png' /></center></div>
+<img class='screenshot' src='screenshots/106.1.png' style='height:200px;' />
 
 > [106_triangle.py](./106_triangle.py)
 
@@ -147,7 +147,7 @@ t = triangle(v0=a, v1=b, v2=c)
 
 Display a quad made by vertices with different colors
 
-<div style='background:black;'><center><img src='screenshots/107.1.png' /></center></div>
+<img class='screenshot' src='screenshots/107.1.png' style='height:200px;' />
 
 > [107_quad.py](./107_quad.py)
 
@@ -166,7 +166,7 @@ q = quad(v0=o, v1=a, v2=b, v3=c)
 
 Display a label close to one sphera
 
-<div style='background:black;'><center><img src='screenshots/108.1.png' /></center></div>
+<img class='screenshot' src='screenshots/108.1.png' style='height:200px;' />
 
 > [108_label.py](./108_label.py)
 
@@ -201,7 +201,7 @@ label(
 
 Display a compound object between sphera and cylinder
 
-<div style='background:black;'><center><img src='screenshots/109.1.png' /></center></div>
+<img class='screenshot' src='screenshots/109.1.png' style='height:200px;' />
 
 > [109_compund.py](./109_compund.py)
 
@@ -219,7 +219,7 @@ f = compound([s, c], pos=vector(2, 2, 2), axis=vector(1, 1, 1))
 
 Display a gear extruded to a cylinder
 
-<div style='background:black;'><center><img src='screenshots/110.1.png' /></center></div>
+<img class='screenshot' src='screenshots/110.1.png' style='height:200px;' />
 
 > [110_shapes.py](./110_shapes.py)
 
@@ -235,7 +235,7 @@ extrusion(path=[vector(0, 0, 0), vector(0, 1, 0)], shape=e)
 
 Display a gear extruded in rotation
 
-<div style='background:black;'><center><img src='screenshots/111.1.png' /></center></div>
+<img class='screenshot' src='screenshots/111.1.png' style='height:200px;' />
 
 > [111_rotation.py](./111_rotation.py)
 
@@ -259,7 +259,7 @@ Display 3 spheres, one of them rotating.
 * When you press `ctrl+click` and move the mouse 
 one sphera go to mouse position 
 
-<div style='background:black;'><center><img src='screenshots/112.1.png' /></center></div>
+<img class='screenshot' src='screenshots/112.1.png' style='height:200px;' />
 
 > [112_events.py](./112_events.py)
 
